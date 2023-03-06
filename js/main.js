@@ -1,10 +1,10 @@
-let nome = document.querySelector("#nome");
-let altura = document.querySelector("#altura");
-let peso = document.querySelector("#peso");
 let botao = document.querySelector("#calcular");
-let resultado = document.querySelector(".resultado")
-
 function calcularImc(){
+    let nome = document.querySelector("#nome");
+    let altura = document.querySelector("#altura");
+    let peso = document.querySelector("#peso");
+    let resultado = document.querySelector(".resultado")
+
     if (nome.value !== '' && altura.value !== '' && peso.value !== ''){
         let IMC = parseFloat(peso.value / (altura.value * altura.value)).toFixed(2)
         console.log(IMC)
