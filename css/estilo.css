@@ -1,0 +1,91 @@
+:root {
+    --cor-de-fundo: #3b70a2;
+    --cor-do-botao: #000;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-image: url(/favicon/dieta-pressao-alta-1024x683.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;;
+    background-color: var(--cor-de-fundo);
+}
+
+.titulo {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px solid black;
+    border-radius: 14px 14px 0px 0px;
+}
+
+.input {
+    display: flex;
+    width: 400px;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input input {
+    width: 280px;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-left: 15px;
+    justify-content: space-around;
+}
+
+::placeholder { 
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.666);
+  }
+
+.input label {
+    font-size: 1.5rem;
+}
+
+.botao {
+    display: flex;
+    justify-content: space-around;
+    color: var(--cor-do-botao);
+}
+
+.calcular {
+    width: 375px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: var(--cor-do-botao);
+    color: #3b70a2bf;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.resultado {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    max-width: 400px;
+    height: 100px;
+    font-size: 20px;
+    padding: 0px 10px 10px 10px;
+    font-style: italic;
+}
+
+
+
+
+
+
